@@ -26,7 +26,7 @@ import org.jfree.data.statistics.BoxAndWhiskerCalculator;
 import org.jfree.data.statistics.BoxAndWhiskerItem;
 import org.junit.runner.RunWith;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true, useJEE = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false, useJEE = true) 
 public class BoxAndWhiskerCalculator_ESTest extends BoxAndWhiskerCalculator_ESTest_scaffolding {
 
   @Test(timeout = 4000)

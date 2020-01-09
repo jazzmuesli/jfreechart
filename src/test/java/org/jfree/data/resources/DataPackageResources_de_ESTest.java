@@ -12,7 +12,7 @@ import org.evosuite.runtime.EvoRunnerParameters;
 import org.jfree.data.resources.DataPackageResources_de;
 import org.junit.runner.RunWith;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true, useJEE = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false, useJEE = true) 
 public class DataPackageResources_de_ESTest extends DataPackageResources_de_ESTest_scaffolding {
 
   @Test(timeout = 4000)

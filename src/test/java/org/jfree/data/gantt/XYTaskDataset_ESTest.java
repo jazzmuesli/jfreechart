@@ -16,7 +16,7 @@ import org.jfree.data.gantt.XYTaskDataset;
 import org.jfree.data.general.DatasetChangeEvent;
 import org.junit.runner.RunWith;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true, useJEE = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false, useJEE = true) 
 public class XYTaskDataset_ESTest extends XYTaskDataset_ESTest_scaffolding {
 
   @Test(timeout = 4000)

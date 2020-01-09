@@ -35,7 +35,7 @@ import org.jfree.chart.needle.ShipNeedle;
 import org.jfree.chart.needle.WindNeedle;
 import org.junit.runner.RunWith;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true, useJEE = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false, useJEE = true) 
 public class MeterNeedle_ESTest extends MeterNeedle_ESTest_scaffolding {
 
   @Test(timeout = 4000)

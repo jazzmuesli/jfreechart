@@ -20,7 +20,7 @@ import org.xml.sax.SAXException;
 import org.xml.sax.ext.Attributes2Impl;
 import org.xml.sax.helpers.AttributesImpl;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true, useJEE = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false, useJEE = true) 
 public class CategoryDatasetHandler_ESTest extends CategoryDatasetHandler_ESTest_scaffolding {
 
   @Test(timeout = 4000)

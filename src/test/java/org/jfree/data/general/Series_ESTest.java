@@ -41,7 +41,7 @@ import org.jfree.data.xy.XYSeriesCollection;
 import org.jfree.data.xy.YIntervalSeries;
 import org.junit.runner.RunWith;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true, useJEE = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false, useJEE = true) 
 public class Series_ESTest extends Series_ESTest_scaffolding {
 
   @Test(timeout = 4000)

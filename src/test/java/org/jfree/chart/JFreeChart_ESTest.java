@@ -212,7 +212,7 @@ import org.junit.runner.RunWith;
 import sun.awt.image.ToolkitImage;
 import sun.java2d.SunGraphics2D;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true, useJEE = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false, useJEE = true) 
 public class JFreeChart_ESTest extends JFreeChart_ESTest_scaffolding {
 
   @Test(timeout = 4000)

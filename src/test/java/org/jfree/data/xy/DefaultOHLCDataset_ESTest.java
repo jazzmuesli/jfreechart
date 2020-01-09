@@ -23,7 +23,7 @@ import org.jfree.data.xy.OHLCDataItem;
 import org.jfree.data.xy.XYDataItem;
 import org.junit.runner.RunWith;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true, useJEE = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false, useJEE = true) 
 public class DefaultOHLCDataset_ESTest extends DefaultOHLCDataset_ESTest_scaffolding {
 
   @Test(timeout = 4000)

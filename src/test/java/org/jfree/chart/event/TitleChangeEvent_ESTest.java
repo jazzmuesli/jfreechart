@@ -16,7 +16,7 @@ import org.jfree.chart.event.TitleChangeEvent;
 import org.jfree.chart.title.Title;
 import org.junit.runner.RunWith;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true, useJEE = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false, useJEE = true) 
 public class TitleChangeEvent_ESTest extends TitleChangeEvent_ESTest_scaffolding {
 
   @Test(timeout = 4000)

@@ -20,7 +20,7 @@ import org.jfree.data.xy.MatrixSeriesCollection;
 import org.jfree.data.xy.XYDataset;
 import org.junit.runner.RunWith;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true, useJEE = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false, useJEE = true) 
 public class SymbolicXYItemLabelGenerator_ESTest extends SymbolicXYItemLabelGenerator_ESTest_scaffolding {
 
   @Test(timeout = 4000)

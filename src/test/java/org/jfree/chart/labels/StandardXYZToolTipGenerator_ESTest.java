@@ -28,7 +28,7 @@ import org.jfree.data.xy.XYDataset;
 import org.jfree.data.xy.XYZDataset;
 import org.junit.runner.RunWith;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true, useJEE = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false, useJEE = true) 
 public class StandardXYZToolTipGenerator_ESTest extends StandardXYZToolTipGenerator_ESTest_scaffolding {
 
   @Test(timeout = 4000)

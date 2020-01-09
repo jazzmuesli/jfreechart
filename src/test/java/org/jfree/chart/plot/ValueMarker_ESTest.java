@@ -19,7 +19,7 @@ import org.jfree.chart.plot.Plot;
 import org.jfree.chart.plot.ValueMarker;
 import org.junit.runner.RunWith;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true, useJEE = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false, useJEE = true) 
 public class ValueMarker_ESTest extends ValueMarker_ESTest_scaffolding {
 
   @Test(timeout = 4000)

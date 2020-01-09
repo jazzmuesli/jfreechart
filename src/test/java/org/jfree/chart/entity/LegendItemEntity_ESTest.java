@@ -21,7 +21,7 @@ import org.jfree.data.general.Dataset;
 import org.jfree.data.general.DefaultHeatMapDataset;
 import org.junit.runner.RunWith;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true, useJEE = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false, useJEE = true) 
 public class LegendItemEntity_ESTest extends LegendItemEntity_ESTest_scaffolding {
 
   @Test(timeout = 4000)

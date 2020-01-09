@@ -14,7 +14,7 @@ import org.jfree.chart.axis.AxisState;
 import org.jfree.chart.ui.RectangleEdge;
 import org.junit.runner.RunWith;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true, useJEE = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false, useJEE = true) 
 public class AxisState_ESTest extends AxisState_ESTest_scaffolding {
 
   @Test(timeout = 4000)

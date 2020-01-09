@@ -73,7 +73,7 @@ import org.jfree.data.statistics.DefaultStatisticalCategoryDataset;
 import org.junit.runner.RunWith;
 import sun.java2d.SunGraphics2D;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true, useJEE = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false, useJEE = true) 
 public class Plot_ESTest extends Plot_ESTest_scaffolding {
 
   @Test(timeout = 4000)

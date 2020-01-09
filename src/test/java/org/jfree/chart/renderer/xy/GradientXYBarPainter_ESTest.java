@@ -37,7 +37,7 @@ import org.jfree.chart.ui.Size2D;
 import org.jfree.data.Range;
 import org.junit.runner.RunWith;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true, useJEE = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false, useJEE = true) 
 public class GradientXYBarPainter_ESTest extends GradientXYBarPainter_ESTest_scaffolding {
 
   @Test(timeout = 4000)

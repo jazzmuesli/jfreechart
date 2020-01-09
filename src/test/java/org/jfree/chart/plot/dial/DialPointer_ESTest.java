@@ -25,7 +25,7 @@ import org.jfree.chart.plot.dial.DialPointer;
 import org.jfree.chart.plot.dial.DialScale;
 import org.junit.runner.RunWith;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true, useJEE = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false, useJEE = true) 
 public class DialPointer_ESTest extends DialPointer_ESTest_scaffolding {
 
   @Test(timeout = 4000)

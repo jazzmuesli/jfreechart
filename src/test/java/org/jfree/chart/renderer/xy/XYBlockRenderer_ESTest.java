@@ -49,7 +49,7 @@ import org.jfree.data.xy.XYDataset;
 import org.junit.runner.RunWith;
 import sun.java2d.SunGraphics2D;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true, useJEE = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false, useJEE = true) 
 public class XYBlockRenderer_ESTest extends XYBlockRenderer_ESTest_scaffolding {
 
   @Test(timeout = 4000)

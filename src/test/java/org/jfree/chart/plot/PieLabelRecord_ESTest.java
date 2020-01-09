@@ -15,7 +15,7 @@ import org.jfree.chart.text.TextBlock;
 import org.jfree.chart.text.TextBox;
 import org.junit.runner.RunWith;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true, useJEE = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false, useJEE = true) 
 public class PieLabelRecord_ESTest extends PieLabelRecord_ESTest_scaffolding {
 
   @Test(timeout = 4000)

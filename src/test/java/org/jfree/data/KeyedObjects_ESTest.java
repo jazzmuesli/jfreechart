@@ -17,7 +17,7 @@ import org.jfree.data.KeyedObject;
 import org.jfree.data.KeyedObjects;
 import org.junit.runner.RunWith;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true, useJEE = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false, useJEE = true) 
 public class KeyedObjects_ESTest extends KeyedObjects_ESTest_scaffolding {
 
   @Test(timeout = 4000)

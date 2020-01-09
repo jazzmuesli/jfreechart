@@ -73,7 +73,7 @@ import org.jfree.data.category.CategoryDataset;
 import org.junit.runner.RunWith;
 import sun.java2d.SunGraphics2D;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true, useJEE = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false, useJEE = true) 
 public class Title_ESTest extends Title_ESTest_scaffolding {
 
   @Test(timeout = 4000)

@@ -22,7 +22,7 @@ import org.jfree.chart.entity.JFreeChartEntity;
 import org.jfree.chart.plot.Plot;
 import org.junit.runner.RunWith;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true, useJEE = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false, useJEE = true) 
 public class JFreeChartEntity_ESTest extends JFreeChartEntity_ESTest_scaffolding {
 
   @Test(timeout = 4000)

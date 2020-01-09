@@ -16,7 +16,7 @@ import org.jfree.data.xml.RootHandler;
 import org.junit.runner.RunWith;
 import org.xml.sax.helpers.DefaultHandler;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true, useJEE = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false, useJEE = true) 
 public class RootHandler_ESTest extends RootHandler_ESTest_scaffolding {
 
   @Test(timeout = 4000)

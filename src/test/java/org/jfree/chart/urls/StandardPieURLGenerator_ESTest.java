@@ -20,7 +20,7 @@ import org.jfree.data.general.DefaultKeyedValuesDataset;
 import org.jfree.data.general.PieDataset;
 import org.junit.runner.RunWith;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true, useJEE = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false, useJEE = true) 
 public class StandardPieURLGenerator_ESTest extends StandardPieURLGenerator_ESTest_scaffolding {
 
   @Test(timeout = 4000)

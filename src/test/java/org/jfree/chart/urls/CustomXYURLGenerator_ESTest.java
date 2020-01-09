@@ -17,7 +17,7 @@ import org.jfree.chart.urls.CustomXYURLGenerator;
 import org.jfree.data.xy.XYDataset;
 import org.junit.runner.RunWith;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true, useJEE = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false, useJEE = true) 
 public class CustomXYURLGenerator_ESTest extends CustomXYURLGenerator_ESTest_scaffolding {
 
   @Test(timeout = 4000)

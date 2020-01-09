@@ -12,7 +12,7 @@ import org.evosuite.runtime.EvoRunnerParameters;
 import org.jfree.data.time.TimePeriodFormatException;
 import org.junit.runner.RunWith;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true, useJEE = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false, useJEE = true) 
 public class TimePeriodFormatException_ESTest extends TimePeriodFormatException_ESTest_scaffolding {
 
   @Test(timeout = 4000)

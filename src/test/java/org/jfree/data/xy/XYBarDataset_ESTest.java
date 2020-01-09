@@ -18,7 +18,7 @@ import org.jfree.data.xy.XYBarDataset;
 import org.jfree.data.xy.XYDataset;
 import org.junit.runner.RunWith;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true, useJEE = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false, useJEE = true) 
 public class XYBarDataset_ESTest extends XYBarDataset_ESTest_scaffolding {
 
   @Test(timeout = 4000)

@@ -63,7 +63,7 @@ import org.jfree.data.time.TimeSeriesCollection;
 import org.junit.runner.RunWith;
 import sun.java2d.SunGraphics2D;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true, useJEE = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false, useJEE = true) 
 public class MeterPlot_ESTest extends MeterPlot_ESTest_scaffolding {
 
   @Test(timeout = 4000)

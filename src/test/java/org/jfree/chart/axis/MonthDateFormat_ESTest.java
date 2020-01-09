@@ -28,7 +28,7 @@ import org.evosuite.runtime.mock.java.util.MockDate;
 import org.jfree.chart.axis.MonthDateFormat;
 import org.junit.runner.RunWith;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true, useJEE = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false, useJEE = true) 
 public class MonthDateFormat_ESTest extends MonthDateFormat_ESTest_scaffolding {
 
   @Test(timeout = 4000)

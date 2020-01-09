@@ -12,7 +12,7 @@ import org.evosuite.runtime.EvoRunnerParameters;
 import org.jfree.chart.renderer.category.DefaultCategoryItemRenderer;
 import org.junit.runner.RunWith;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true, useJEE = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false, useJEE = true) 
 public class DefaultCategoryItemRenderer_ESTest extends DefaultCategoryItemRenderer_ESTest_scaffolding {
 
   @Test(timeout = 4000)

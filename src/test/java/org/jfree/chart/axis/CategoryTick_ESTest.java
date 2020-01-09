@@ -18,7 +18,7 @@ import org.jfree.chart.text.TextBlockAnchor;
 import org.jfree.chart.ui.TextAnchor;
 import org.junit.runner.RunWith;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true, useJEE = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false, useJEE = true) 
 public class CategoryTick_ESTest extends CategoryTick_ESTest_scaffolding {
 
   @Test(timeout = 4000)

@@ -13,7 +13,7 @@ import org.jfree.chart.plot.CategoryCrosshairState;
 import org.jfree.chart.plot.PlotOrientation;
 import org.junit.runner.RunWith;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true, useJEE = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false, useJEE = true) 
 public class CategoryCrosshairState_ESTest extends CategoryCrosshairState_ESTest_scaffolding {
 
   @Test(timeout = 4000)

@@ -16,7 +16,7 @@ import org.jfree.data.time.RegularTimePeriod;
 import org.jfree.data.time.ohlc.OHLCItem;
 import org.junit.runner.RunWith;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true, useJEE = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false, useJEE = true) 
 public class OHLCItem_ESTest extends OHLCItem_ESTest_scaffolding {
 
   @Test(timeout = 4000)

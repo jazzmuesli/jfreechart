@@ -16,7 +16,7 @@ import org.jfree.chart.annotations.Annotation;
 import org.jfree.chart.event.AnnotationChangeEvent;
 import org.junit.runner.RunWith;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true, useJEE = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false, useJEE = true) 
 public class AnnotationChangeEvent_ESTest extends AnnotationChangeEvent_ESTest_scaffolding {
 
   @Test(timeout = 4000)

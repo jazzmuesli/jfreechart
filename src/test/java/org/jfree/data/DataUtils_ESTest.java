@@ -19,7 +19,7 @@ import org.jfree.data.KeyedValues;
 import org.jfree.data.Values2D;
 import org.junit.runner.RunWith;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true, useJEE = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false, useJEE = true) 
 public class DataUtils_ESTest extends DataUtils_ESTest_scaffolding {
 
   @Test(timeout = 4000)

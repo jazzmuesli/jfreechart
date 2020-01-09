@@ -25,7 +25,7 @@ import org.jfree.chart.renderer.category.CategoryItemRendererState;
 import org.jfree.data.category.CategoryDataset;
 import org.junit.runner.RunWith;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true, useJEE = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false, useJEE = true) 
 public class AreaRenderer_ESTest extends AreaRenderer_ESTest_scaffolding {
 
   @Test(timeout = 4000)

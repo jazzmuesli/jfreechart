@@ -62,7 +62,7 @@ import org.jfree.data.statistics.DefaultMultiValueCategoryDataset;
 import org.jfree.data.xy.XYDatasetTableModel;
 import org.junit.runner.RunWith;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true, useJEE = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false, useJEE = true) 
 public class SymbolAxis_ESTest extends SymbolAxis_ESTest_scaffolding {
 
   @Test(timeout = 4000)

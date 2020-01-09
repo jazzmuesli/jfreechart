@@ -14,7 +14,7 @@ import org.evosuite.runtime.EvoRunnerParameters;
 import org.jfree.chart.renderer.GrayPaintScale;
 import org.junit.runner.RunWith;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true, useJEE = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false, useJEE = true) 
 public class GrayPaintScale_ESTest extends GrayPaintScale_ESTest_scaffolding {
 
   @Test(timeout = 4000)
